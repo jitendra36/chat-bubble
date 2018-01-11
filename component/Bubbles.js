@@ -92,6 +92,8 @@ function Bubbles(container, self, options) {
             self +
             ".answer('" +
             el.answer +
+            "','" +
+            el.question +
             "');this.classList.add('bubble-pick')\">" +
             el.question +
             "</span>"
